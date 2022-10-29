@@ -4,7 +4,6 @@ const Question = () => {
     return (
         <>
             <QuestionComponent />
-            {/* <SubmissionComponent /> */}
         </>
     )
 }

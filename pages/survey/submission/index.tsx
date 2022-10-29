@@ -7,7 +7,7 @@ const SubmissionComponent = () => {
     const redirectAgain = () => {
         localStorage.removeItem("answer");
         setTimeout(() => {
-            push(`/survey/question/1`)
+            push(`/`)
         }, 5000)
 
     }
