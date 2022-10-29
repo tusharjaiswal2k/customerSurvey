@@ -1,0 +1,54 @@
+/* {{ height: "100vh", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }} */
+.questionComponentContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* {{ height: "40vh", width: "40vw", background: "red"}} */
+.questionComponentSubContainer{
+    height: 50vh;
+    width: 40vw;
+    background: rgb(153, 191, 235);
+    border-radius: 5%;
+}
+
+.questionComponentHeading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.questionComponentRadioDiv{
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.questionComponentRadio{
+    margin-left: 30px;
+}
+
+.questionComponentButtons{
+    display: flex;
+    justify-content: space-around;
+}
+.questionComponentNextButton{
+    color: #ffffff;
+    background-color: blue;
+    outline: none;
+    border: none;
+    border-radius:7px;
+    width: 80px;
+    height: 40px;
+}
+
+.questionComponentPrevButton{
+    color: #ffffff;
+    background-color: rgb(235, 103, 224);
+    outline: none;
+    border: none;
+    border-radius:7px;
+    width: 80px;
+    height: 40px;
+}
